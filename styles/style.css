@@ -220,19 +220,21 @@ footer textarea {
   footer,
   .about-items,
   .banner,
-  nav, 
+  nav,
   nav > ul {
     flex-direction: column;
   }
-.btn-primary{
-  margin-bottom: 20px;
-}
+  .btn-primary {
+    margin-bottom: 20px;
+  }
 
   nav > ul {
     gap: 20px;
   }
   footer,
-  .about {
+  .about,
+  .section-description,
+  .resume-column {
     padding: 20px;
   }
 
@@ -249,7 +251,7 @@ footer textarea {
   .about-items {
     flex-direction: column;
   }
-  .banner{
+  .banner {
     margin: 20px;
   }
 
